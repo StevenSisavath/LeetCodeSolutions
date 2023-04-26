@@ -7,3 +7,6 @@ class Solution:
             elif not brackets_stack or lefts.index(brackets_stack.pop()) != rights.index(char): 
                 return False
         return not brackets_stack 
+    
+    def isNotValid(self):
+        return self
